@@ -91,6 +91,10 @@ def move():
     draw()
 
     #Ahora el juego no acaba
+    for target in targets:
+        #Si las bolas salen, las reposiciona al otro lado
+        if not inside(target):
+            target.x = 200
     
     ontimer(move, 10)
 
