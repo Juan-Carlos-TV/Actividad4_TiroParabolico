@@ -92,7 +92,7 @@ def move():
 
     #Ahora el juego no acaba
     
-    ontimer(move, 50)
+    ontimer(move, 10)
 
 #Establece el tamaño de la pantalla y su posición
 setup(420, 420, 370, 0)
