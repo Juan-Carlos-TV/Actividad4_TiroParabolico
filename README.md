@@ -3,19 +3,19 @@
 
 ![](https://www.infojinaga.com.mx/wp-content/uploads/2017/01/Logo-Tec-de-Monterrey-e1484853084274.png)
 
-###Descipción:
+### Descipción:
 Como parte de las actividades a desarrollar durante esta semana tec, surge este proyecto que consiste en realizar modificaciones al juego de Cannon de Free Python Games [[aquí]](http://www.grantjenks.com/docs/freegames/cannon.html)
 Estas modificaciones consisten en:
 - La velocidad del movimiento para el proyectil y los balones sea más rápida
 - Hacer que el juego nunca termine, de manera que los balones al salir de la ventana se re posicionen.
 
-###¿Qué se utilizó para este proyecto?
+### ¿Qué se utilizó para este proyecto?
 Para realizar esta actividad se requirió de lo siguiente:
 - Un IDE que permita trabajar con el lenguaje Python
 - La paquetería de gráficos Turtle
 - El paquete de freegames
 
-###¿Cómo se hizo?
+### ¿Cómo se hizo?
 #### Aumentar la velocidad del proyectil y los balones.
 Para esta parte se tenían muchas opciones dependiendo del efecto que quisieramos conseguir. La escogida, en esta ocasión, fue la de aumentar el ontimer de la función move con el fin de aumentar la velocidad general del juego.
 	ontimer(move, 10)
