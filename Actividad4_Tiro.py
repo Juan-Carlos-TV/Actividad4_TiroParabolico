@@ -90,11 +90,7 @@ def move():
     #Llama a draw
     draw()
 
-    #Si alguno de los targets llega al límite de la pantalla
-        #termina el juego
-    for target in targets:
-        if not inside(target):
-            return
+    #Ahora el juego no acaba
     
     ontimer(move, 50)
 
